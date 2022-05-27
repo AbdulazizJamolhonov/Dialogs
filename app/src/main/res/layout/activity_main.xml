@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linear"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/alert_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/custom_dialog"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/alert_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/custom_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/fragment_dialog"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/alert_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/custom_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/date_picker_dialog"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/custom_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/fragment_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/date_picker_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/time_picker_dialog"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fragment_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/date_picker_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/time_picker_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_sheet_dialog"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/date_picker_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/time_picker_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/bottom_sheet_dialog"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/snackbar"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/time_picker_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/bottom_sheet_dialog"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/snackbar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/home2"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bottom_sheet_dialog"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/snackbar"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/home2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@id/home3"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/snackbar"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Home-18-2"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/home3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:backgroundTint="#C82D40"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHeight_percent="0.09"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/home2"
+        app:layout_constraintWidth_percent="0.7">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Home-18-3"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

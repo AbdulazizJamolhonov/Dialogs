@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="#81A9EF"
+        android:src="@drawable/ic_check"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:gravity="center"
+        android:text="@string/awesome_dialog"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/lorem_ipsum_dolor_sit_amet_nconsectetur_adipiscing_elit_fusce_ncongue_nunc_id_auctor_feugiat_nmaecenas_scelerisque_nisi_quam_nat_sagittis_lectus_pharetra_id_netiam_ultrices_suscipit_dictum"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/okay"
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:backgroundTint="#D7002C"
+            android:text="@string/okay"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/cancel"
+            android:textColor="#337AF4"
+            android:textSize="25sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

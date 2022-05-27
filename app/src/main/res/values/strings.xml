@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Homework 18-1</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="alert_dialog">Alert Dialog</string>
+    <string name="custom_dialog">Custom Dialog</string>
+    <string name="fragment_dialog">Fragment Dialog</string>
+    <string name="date_picker_dialog">Date Picker Dialog</string>
+    <string name="time_picker_dialog">Time Picker Dialog</string>
+    <string name="bottom_sheet_dialog">Bottom Sheet Dialog</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="java">Java</string>
+    <string name="c">C++</string>
+    <string name="start">Cancel</string>
+    <string name="stop">Next</string>
+    <string name="_99_99">99 * 99 = ?</string>
+    <string name="_9901">9901</string>
+    <string name="_9801">9801</string>
+    <string name="_9999">9999</string>
+    <string name="tekshirish">Tekshirish</string>
+    <string name="name">Name</string>
+    <string name="no_connection">No connection</string>
+    <string name="lorem_ipsum_dolor_sit_amet_nconsectetur_adipiscing_elit_fusce_ncongue_nunc_id_auctor_feugiat_nmaecenas_scelerisque_nisi_quam_nat_sagittis_lectus_pharetra_id_netiam_ultrices_suscipit_dictum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce congue nunc id auctor feugiat. Maecenas scelerisque nisi quam, at sagittis lectus pharetra id. Etiam ultrices suscipit dictum.</string>
+    <string name="okay">Okay</string>
+    <string name="cancel">Cancel</string>
+    <string name="awesome_dialog">AWESOME DIALOG</string>
+    <string name="dialog">Dialog</string>
+</resources>
